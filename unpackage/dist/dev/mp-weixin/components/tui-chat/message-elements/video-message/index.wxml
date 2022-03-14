@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['playerHander',['$event']]]]]}}" class="{{['video-box2 '+(isMine?'my-video':'')]}}" bindtap="__e"><image class="imgthem" src="{{message.payload.remoteVideoUrl+'?x-oss-process=video/snapshot,t_100,f_jpg'}}" mode></image><image class="video-icon" src="../../../../static/images/video-play.png"></image></view>

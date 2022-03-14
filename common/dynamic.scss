@@ -1,0 +1,220 @@
+	.commentU{
+		background: #F6F6F6;
+		.swper_emoji {
+			height: 500rpx;
+			overflow-y: scroll;
+			padding: 20rpx 0 0;
+		
+			>image {
+				width: 70rpx;
+				height: 70rpx;
+				margin-bottom:20rpx;
+			}
+			>image:not(:nth-child(8n)){
+				margin-right:20rpx;
+			}
+		}
+		.send{
+			width:114rpx;
+			height:64rpx;
+			line-height:64rpx;
+			text-align: center;
+			border-radius: 20rpx;
+			background: #33A0F4;
+		}
+	}
+	.evaing {
+		padding-top: 9rpx;
+		padding-left: 13rpx;
+		padding-right: 28rpx;
+		background: #F6F6F6;
+
+		.smile-black {
+			width: 51rpx;
+			height: 52rpx;
+		}
+	}
+
+	textarea {
+		width:500rpx;
+		height: 72rpx;
+		min-height: 72rpx;
+		background: #FFFFFF;
+		border-radius: 36rpx;
+		font-size: 30rpx;
+		padding:16rpx 30rpx 0;
+	}
+	.single {
+		width: 0;
+		height: 0;
+		border-left: 16rpx solid transparent;
+		border-right: 16rpx solid transparent;
+		border-bottom: 20rpx solid #F3F3F3;
+		position: absolute;
+		top: -20rpx;
+		right: 150rpx;
+	}
+
+	.loveList-evaList {
+		background: #F3F3F3;
+		border-radius: 14rpx;
+		position: relative;
+		margin-top: 20rpx;
+	}
+
+	.love-icon {
+		width: 17rpx;
+		height: 14rpx;
+	}
+
+	.love-avatar {
+		width: 70rpx;
+		height: 70rpx;
+		border-radius: 50%;
+		margin-right: 22rpx;
+	}
+
+	.evaList-list {
+		padding: 0 20rpx;
+
+		&-item {
+			padding: 20rpx 0 20rpx 28rpx;
+			position: relative;
+
+			.love-icon {
+				position: absolute;
+				top: 26rpx;
+				left: 0;
+			}
+
+			.eva-user {
+				flex: 1;
+
+				&-content {
+					margin: 11rpx 0 0;
+
+					.cont {
+						flex: 1;
+					}
+				}
+			}
+		}
+
+		&-item:not(:last-child) {
+			border-bottom: 1px solid #E9E9E9;
+		}
+	}
+
+	.loveList {
+		flex-wrap: wrap;
+		padding: 27rpx 15rpx 25rpx;
+		border-bottom: 1px solid #E9E9E9;
+
+		.love-avatar {
+			margin-left: 14rpx;
+		}
+	}
+
+	.list {
+		margin-top: 56rpx;
+
+		>view:not(:last-child) {
+			margin-bottom: 82rpx;
+		}
+
+		>view {
+			.avatar {
+				width: 93rpx;
+				height: 93rpx;
+				border-radius: 50%;
+			}
+
+			.right {
+				margin-left: 13rpx;
+				flex: 1;
+				padding-top: 18rpx;
+
+				.time {
+					margin-top: 7rpx;
+				}
+
+				.text {
+					color: #3F3F3F;
+					line-height: 49rpx;
+					margin-top:22rpx;
+					word-break:break-word;
+				}
+
+				.imgs {
+					flex-wrap: wrap;
+					>view{
+						width: 186rpx;
+						height: 186rpx;
+						margin: 9rpx 9rpx 0 0;
+						position: relative;
+					}
+					image,video {
+						width:100%;
+						height:100%;
+						border-radius: 14rpx;
+					}
+					.bigImg{
+						width: 360rpx!important;
+						height: 186rpx!important;
+					}
+				}
+
+				.place {
+					margin: 19rpx 0 0;
+
+					>image {
+						width: 20rpx;
+						height: 23rpx;
+						margin-right: 7rpx;
+						margin-top:4rpx;
+					}
+					>view{
+						flex:1;
+					}
+				}
+
+				.bottom-btns {
+					margin:20rpx 0 0;
+					height: 78rpx;
+					>.eva-btn {
+						margin: 0 50rpx 0 40rpx;
+					}
+
+					>view {
+						color: #505050;
+					}
+				}
+
+				.gift-pink {
+					width: 80rpx;
+					height: 78rpx;
+				}
+				.love2{
+					width:38rpx;
+					height: 38rpx;
+				}
+				.love2,
+				.love,
+				.heart {
+					margin-right: 12rpx;
+				}
+			}
+		}
+	}
+
+	.nav {
+		padding: 0 50rpx;
+
+		>view {
+			margin-right: 46rpx;
+		}
+	}
+	.emoji-icon {
+		width: 20px;
+		height: 20px;
+	}

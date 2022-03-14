@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "gift-model": "/components/repeatGift/repeatGift",
+    "tip-model": "/components/tipModel/tipModel",
+    "comment-u": "/components/commentU/commentU"
+  }
+}

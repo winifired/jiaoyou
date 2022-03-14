@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.userEva .title.data-v-5166ee27 {
+  padding-left: 30rpx;
+}
+.userEva .evaTag.data-v-5166ee27 {
+  margin: 46rpx 0 0;
+  flex-wrap: wrap;
+}
+.userEva .evaTag > view.data-v-5166ee27 {
+  color: #6B6D71;
+  height: 66rpx;
+  line-height: 66rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 26rpx 1px rgba(159, 159, 159, 0.16);
+  border-radius: 33rpx 33rpx 33rpx 6rpx;
+  padding: 0 28rpx;
+  margin: 0 34rpx 30rpx 0;
+  position: relative;
+}
+.userEva .evaTag > view text.data-v-5166ee27 {
+  font-size: 20rpx;
+  min-width: 34rpx;
+  text-align: center;
+  height: 34rpx;
+  line-height: 34rpx;
+  background: #FF4364;
+  padding: 0 10rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: -14rpx;
+  right: -4rpx;
+  display: block;
+  box-sizing: border-box;
+}
+.userEva .synthesis.data-v-5166ee27 {
+  padding-left: 30rpx;
+}
+.userEva .synthesis .uni-rate.data-v-5166ee27 {
+  margin: 0 29rpx;
+}
+.report.data-v-5166ee27 {
+  width: 750rpx;
+  background: #FFFFFF;
+  border-radius: 30rpx 30rpx 0 0;
+  padding-top: 50rpx;
+}
+.report .title.data-v-5166ee27 {
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.report .scroll-view.data-v-5166ee27 {
+  max-height: 800rpx;
+}
+.report .scroll-view .reports > view.data-v-5166ee27 {
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1px solid #F3F3F3;
+}
+.imgs > image.data-v-5166ee27 {
+  width: 217rpx;
+  height: 217rpx;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.imgs > image.data-v-5166ee27:not(:nth-child(3n)) {
+  margin-right: 20rpx;
+}
+.userMsg .title.data-v-5166ee27 {
+  margin-bottom: 34rpx;
+}
+.userMsg .title .name.data-v-5166ee27 {
+  font-weight: 500;
+}
+.userMsg .msg.data-v-5166ee27 {
+  margin-left: 30rpx;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.userMsg .msg-item.data-v-5166ee27 {
+  height: 54rpx;
+  line-height: 54rpx;
+  background: #F3F3F3;
+  border-radius: 27rpx;
+  padding: 0 28rpx;
+  margin: 0 12rpx 12rpx 0;
+}
+.userMsg .mt-25.data-v-5166ee27 {
+  margin-bottom: 25rpx !important;
+}
+.nav.data-v-5166ee27 {
+  padding: 0 50rpx;
+  margin: 70rpx 0 57rpx;
+}
+.nav > view.data-v-5166ee27 {
+  padding-bottom: 28rpx;
+}
+.nav > .font36.data-v-5166ee27 {
+  font-weight: 500;
+  position: relative;
+}
+.nav .font36.data-v-5166ee27:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 38rpx;
+  height: 8rpx;
+  background: #FF4364;
+  border-radius: 4rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.fixedBottom > view.data-v-5166ee27 {
+  width: 320rpx;
+  height: 90rpx;
+  box-shadow: 0 10rpx 21rpx 0 rgba(255, 67, 100, 0.39);
+  border-radius: 45rpx;
+}
+.fixedBottom > view image.data-v-5166ee27 {
+  width: 74rpx;
+  height: 74rpx;
+}
+.fixedBottom > view.data-v-5166ee27:nth-child(1) {
+  background: #FF4364;
+}
+.fixedBottom > view.data-v-5166ee27:nth-child(2) {
+  border: 2rpx solid #FF4364;
+}
+.content.data-v-5166ee27 {
+  background: #fff;
+  margin-top: -43rpx;
+  position: relative;
+  z-index: 10;
+  border-radius: 30rpx 30rpx 0 0;
+  padding: 43rpx 30rpx 0;
+}
+.right-user .vipIcon.data-v-5166ee27 {
+  width: 86rpx;
+  height: 32rpx;
+  margin-left: 10rpx;
+}
+.right-user-top.data-v-5166ee27 {
+  flex-direction: column;
+  width: 100%;
+}
+.right-user-name-text.data-v-5166ee27 {
+  flex-wrap: wrap;
+  flex: 1;
+}
+.right-user-name-text .font32.data-v-5166ee27 {
+  font-weight: 500;
+}
+.right-user-name-text .realPeople.data-v-5166ee27 {
+  height: 32rpx;
+  background: rgba(255, 67, 100, 0.1);
+  border-radius: 6rpx;
+  padding: 0 8rpx;
+  margin-left: 8rpx;
+}
+.right-user-name-text .realPeople > image.data-v-5166ee27 {
+  width: 18rpx;
+  height: 20rpx;
+  margin-right: 6rpx;
+}
+.right-user-address.data-v-5166ee27 {
+  color: #848484;
+  margin: 30rpx 0 0;
+  line-height: 42rpx;
+}
+.right-user-bottom.data-v-5166ee27 {
+  margin: 27rpx 0 0;
+}
+.right-user-bottom > view.data-v-5166ee27 {
+  height: 40rpx;
+  background: rgba(133, 133, 133, 0.1);
+  border-radius: 6rpx;
+  padding: 0 12rpx;
+  margin-right: 12rpx;
+}
+.right-user-bottom > view > image.data-v-5166ee27 {
+  width: 18rpx;
+  height: 21rpx;
+  margin-right: 12rpx;
+}
+.right-user-bottom > view > text.data-v-5166ee27 {
+  display: block;
+  width: 8rpx;
+  height: 8rpx;
+  background: #2BBD24;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.meau.data-v-5166ee27 {
+  position: fixed;
+  top: calc(0px - 20rpx);
+  right: -10rpx;
+  z-index: 30;
+  width: 137rpx;
+  height: 227rpx;
+  padding: 34rpx 30rpx 0;
+  box-sizing: inherit;
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+}
+.meau > view.data-v-5166ee27 {
+  height: 54rpx;
+  line-height: 54rpx;
+  text-align: center;
+}
+.meau > view.data-v-5166ee27:not(:first-child) {
+  border-top: 1px solid #E5E5E5;
+}
+.cover-img.data-v-5166ee27 {
+  width: 100%;
+  height: 750rpx;
+}
+.realPeoplemen.data-v-5166ee27 {
+  background: rgba(255, 195, 0, 0.1) !important;
+}
+.realPeoplemen image.data-v-5166ee27 {
+  width: 11rpx !important;
+  height: 20rpx !important;
+}
+

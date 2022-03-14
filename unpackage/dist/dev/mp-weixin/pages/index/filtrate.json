@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "精准筛选",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "tip-model": "/components/tipModel/tipModel",
+    "slider-range": "/components/sliderrange/index"
+  }
+}

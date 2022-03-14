@@ -1,0 +1,107 @@
+.model {
+		width: 750rpx;
+		background: #FFFFFF;
+		border-radius: 30rpx 30rpx 0 0;
+		padding:54rpx 0 20rpx;
+		.title{
+			text-align: center;
+			font-weight: 500;
+			line-height: 26rpx;
+			padding-bottom: 20rpx;
+		}
+		.scrollView{
+			max-height: 500rpx;
+			.scrollViewItem{
+				height: 90rpx;
+				border-bottom:1px solid #F3F3F3;
+			}
+		}
+	}
+
+	.writeMsg {
+		padding-bottom: 100rpx;
+	}
+
+	.yes {
+		width: 34rpx;
+		height: 24rpx;
+		margin-left: 36rpx;
+	}
+
+	.next {
+		width: 690rpx;
+		height: 90rpx;
+	}
+
+	.save {
+		width: 660rpx;
+		height: 86rpx;
+		margin-top: 69rpx;
+	}
+
+	.tags {
+		flex-wrap: wrap;
+		margin-right: 0 !important;
+
+		>view {
+			padding: 0 37rpx;
+			height: 70rpx;
+			line-height: 70rpx;
+			background: #F4F4F4;
+			border-radius: 35rpx;
+			margin: 0 18rpx 20rpx 0;
+		}
+	}
+
+	.item {
+		margin: 30rpx 30rpx 45rpx;
+
+		.name {
+			font-weight: 500;
+		}
+
+		input {
+			text-align: right;
+		}
+
+		.sex {
+			margin-right: 17rpx;
+			width: 200rpx;
+			height: 96rpx;
+			background: #F4F4F4;
+			border-radius: 48rpx;
+
+			>image {
+				width: 21rpx;
+				height: 27rpx;
+				margin-right: 10rpx;
+			}
+		}
+
+		.right {
+			width: 16rpx;
+			height: 30rpx;
+			margin-left: 12rpx;
+		}
+	}
+
+	.avatar {
+		width: 80rpx;
+		height: 80rpx;
+		border-radius: 50%;
+	}
+
+	.process {
+		width: 100%;
+		height: 50rpx;
+		background: #F4F4F4;
+
+		>view {
+			background: #FF4364;
+			height: 100%;
+			line-height: 50rpx;
+			text{
+				margin-left:30rpx;
+			}
+		}
+	}

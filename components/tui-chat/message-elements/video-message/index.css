@@ -1,0 +1,37 @@
+.video-message {}
+
+.video-box2 {
+	width: 160px;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 10px 2px 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.imgthem{
+	width: 160px;
+	height: 120px;
+	border-radius: 10px 2px 10px 10px;
+}
+.my-video {
+	border-radius: 10px 2px 10px 10px;
+}
+
+.icon {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+
+.video-icon {
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	z-index:20;
+}

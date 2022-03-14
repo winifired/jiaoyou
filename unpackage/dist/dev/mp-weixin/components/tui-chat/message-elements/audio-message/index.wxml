@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['handlePlayAudioMessage',['$event']]]]]}}" class="{{['flex','row-center','audio-message '+(isMine?'my-audio':'')]}}" bindtap="__e"><image class="audio-icon" src="{{!playStatus?$root.m0:$root.m1}}"></image><view class="audio" style="{{('width: '+120+'rpx')}}">{{'" '+message.payload.second}}</view></view>

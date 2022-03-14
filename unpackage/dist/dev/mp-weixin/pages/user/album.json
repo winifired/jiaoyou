@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的相册",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "upload-img": "/components/uploadImg/uploadImg",
+    "uploadalbum": "/components/uploadalbum/uploadalbum"
+  }
+}

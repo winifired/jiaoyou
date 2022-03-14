@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/TUI-Chat/chat",
+    "pages/index/detail",
+    "pages/discover/discover",
+    "pages/user/user",
+    "pages/chat/chat",
+    "pages/dynamic/issue",
+    "pages/dynamic/dynamic",
+    "pages/index/filtrate",
+    "pages/login/writeMsg",
+    "pages/login/writeMsgImg",
+    "pages/login/login",
+    "pages/index/evaluate",
+    "pages/dynamic/dynamic-detail",
+    "pages/user/userMsg",
+    "pages/user/setting",
+    "pages/user/setting/account",
+    "pages/user/setting/account-phone",
+    "pages/user/setting/logout",
+    "pages/user/setting/privacy",
+    "pages/user/setting/blackList",
+    "pages/user/setting/problemList",
+    "pages/user/setting/asidePage/asidePage",
+    "pages/user/setting/idea",
+    "pages/user/invite",
+    "pages/user/invite-detail",
+    "pages/user/likeMe",
+    "pages/user/friend",
+    "pages/user/attestation",
+    "pages/user/attestation-img",
+    "pages/user/wallet/wallet",
+    "pages/user/wallet/recharge",
+    "pages/user/wallet/withdraw",
+    "pages/user/vipCenter",
+    "pages/user/album",
+    "pages/user/getEva",
+    "pages/user/active",
+    "pages/user/visitor",
+    "pages/user/focusList",
+    "pages/user/userpraise",
+    "pages/user/giftList",
+    "pages/user/serves",
+    "pages/user/servesCode",
+    "pages/login/city",
+    "pages/user/setting/problemDetail",
+    "pages/user/activeDetail",
+    "pages/user/wallet/bindAccount",
+    "pages/index/filtrate-city"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "height": "55px",
+    "selectedColor": "#FF4364",
+    "borderStyle": "white",
+    "backgroundImage": "/static/image/tabbar-bg.png",
+    "background": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/index.png",
+        "selectedIconPath": "static/image/index-act.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "static/image/dynamic.png",
+        "selectedIconPath": "static/image/dynamic-act.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/image/chat.png",
+        "selectedIconPath": "static/image/chat-act.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/image/user.png",
+        "selectedIconPath": "static/image/user-act.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

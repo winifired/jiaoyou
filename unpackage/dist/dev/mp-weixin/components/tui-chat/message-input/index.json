@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "gift-model": "/components/repeatGift/repeatGift",
+    "t-u-i-emoji": "/components/tui-chat/message-elements/emoji/index",
+    "t-u-i-common-words": "/components/tui-chat/message-private/common-words/index",
+    "t-u-i-order-list": "/components/tui-chat/message-private/order-list/index",
+    "t-u-i-service-evaluation": "/components/tui-chat/message-private/service-evaluation/index"
+  }
+}

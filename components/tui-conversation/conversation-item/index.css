@@ -1,0 +1,35 @@
+.item{
+	padding: 30rpx 0 0 30rpx;
+}
+.t-conversation-item-avatar{
+	width: 93rpx;
+	height: 93rpx;
+	border-radius: 50%;
+}
+.tui-conversation-lastMessage{
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #999999;
+}
+.right-msg {
+	flex: 1;
+	margin-left: 37rpx;
+	padding-bottom: 30rpx;
+	border-bottom: 1px solid #F2F2F2;
+	padding-right: 30rpx;
+}
+
+.right-msg-content {
+	margin: 12rpx 0 0;
+}
+
+.right-msg-content .count {
+	min-width: 38rpx;
+	height: 38rpx;
+	background: #FF4364;
+	border-radius: 20rpx;
+	padding: 0 12rpx;
+	line-height: 38rpx;
+	text-align: center;
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "dynamic": "/components/dynamic/dynamic",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "gift-model": "/components/repeatGift/repeatGift",
+    "tip-model": "/components/tipModel/tipModel",
+    "comment-u": "/components/commentU/commentU"
+  }
+}

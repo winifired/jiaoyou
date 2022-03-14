@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "喜欢我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "tip-model": "/components/tipModel/tipModel"
+  }
+}

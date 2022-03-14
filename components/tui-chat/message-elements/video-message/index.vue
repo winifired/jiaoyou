@@ -1,0 +1,57 @@
+<template>
+	<view :class="'video-box2 ' + (isMine ? 'my-video' : '')" @click="playerHander">
+		<image :src="message.payload.remoteVideoUrl+'?x-oss-process=video/snapshot,t_100,f_jpg'" mode="" class="imgthem"></image>
+		<image class="video-icon" src="../../../../static/images/video-play.png"></image>
+	</view>
+</template>
+
+<script>
+import videoIcon from '../../../../static/images/video-play.png';
+export default {
+	data() {
+		return {
+			isPlay: false,
+			videoIcon: videoIcon
+		};
+	},
+
+	components: {},
+	props: {
+		message: {
+			type: Object,
+			default: () => {}
+		},
+		isMine: {
+			type: Boolean,
+			default: true
+		}
+	},
+	watch: {
+		message: {
+			handler: function(newVal) {
+				console.log('video......................newVal')
+				console.log(newVal)
+				this.setData({
+					message: newVal
+				});
+			},
+			immediate: true,
+			deep: true
+		}
+	},
+	methods: {
+		playerHander() {
+			uni.$emit('videoPlayerHandler', {
+				isPlay: true,
+				message: this.message
+			});
+		},
+		stopHander() {
+			this.isPlay = false;
+		}
+	}
+};
+</script>
+<style>
+@import './index.css';
+</style>

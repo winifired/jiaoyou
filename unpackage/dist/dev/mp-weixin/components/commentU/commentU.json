@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-u-i-emoji": "/components/tui-chat/message-elements/emoji/index"
+  }
+}

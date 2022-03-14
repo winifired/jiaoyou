@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "usingComponents": {
+    "upload-active": "/components/uploadalbum/uploadActive"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "titleNView": "false",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundColorTop": "#FC4A73",
+  "usingComponents": {}
+}

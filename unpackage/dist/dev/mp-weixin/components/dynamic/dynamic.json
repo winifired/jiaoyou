@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "gift-model": "/components/repeatGift/repeatGift",
+    "tip-model": "/components/tipModel/tipModel"
+  }
+}

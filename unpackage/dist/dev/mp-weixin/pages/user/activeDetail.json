@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的动态",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "comment-u": "/components/commentU/commentU"
+  }
+}

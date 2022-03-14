@@ -1,0 +1,13 @@
+{
+    "name": "城市猎人",
+    "version": "1.0.0",
+    "description": "APP",
+    "keywords": [
+        "滑动拼图,左滑不喜欢右滑喜欢"
+    ],
+    "dependencies": {
+        "cos-wx-sdk-v5": "^1.1.5",
+        "dayjs": "^1.10.7",
+        "tim-wx-sdk": "^2.17.0"
+    }
+}
